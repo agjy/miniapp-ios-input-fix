@@ -1,0 +1,14 @@
+<view>
+  <view class="form-item">
+    姓名: <text>{{name}}</text>
+    <fix-ios-input extend-class="wrap-input" bindinput="handleInputName"></fix-ios-input>
+  </view>
+  <view class="form-item">
+    手机号:<text>{{phone}}</text>
+    <fix-ios-input extend-class="wrap-input" bindinput="handleInputPhone"></fix-ios-input>
+  </view>
+  <view class="form-item">
+    地址:<text>{{address}}</text>
+    <fix-ios-input extend-class="wrap-input" bindinput="handleInputAddress"></fix-ios-input>
+  </view>
+</view>

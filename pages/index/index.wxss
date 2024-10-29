@@ -1,0 +1,8 @@
+
+.form-item {
+  padding: 20rpx;
+}
+.wrap-input input {
+  border: 1rpx solid #ccc;
+  height: 60rpx;
+}

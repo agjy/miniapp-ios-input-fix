@@ -1,0 +1,32 @@
+<!-- 此组件用于解决在使用ios输入法时，输入完直接点击下一个输入框无法获取值的问题-->
+<view class="extend-class" bindtap="handleWrapTap">
+  <input
+    type="{{ type }}"
+    focus="{{ currentFocus || focus }}"
+    cursor="{{ cursor }}"
+    value="{{ value }}"
+    auto-focus="{{ autoFocus }}"
+    disabled="{{ currentDisAble || disabled }}"
+    maxlength="{{ maxlength }}"
+    placeholder="{{ placeholder }}"
+    placeholder-style="{{ placeholderStyle }}"
+    placeholder-class="{{  placeholderClass }}"
+    confirm-type="{{ confirmType }}"
+    confirm-hold="{{ confirmHold }}"
+    hold-keyboard="{{ holdKeyboard }}"
+    cursor-spacing="{{ cursorSpacing }}"
+    adjust-position="{{ adjustPosition }}"
+    selection-end="{{ selectionEnd }}"
+    selection-start="{{ selectionStart }}"
+    always-embed="{{ alwaysEmbed }}"
+    password="{{ password || type === 'password' }}"
+    bindinput="onInput"
+    bindtap="onClickInput"
+    bindblur="onBlur"
+    bindfocus="onFocus"
+    bindconfirm="onConfirm"
+    bindkeyboardheightchange="onKeyboardHeightChange"
+    bindnicknamereview="onBindNicknameReview"
+  />
+</view>
+  

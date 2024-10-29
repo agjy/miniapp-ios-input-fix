@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "fix-ios-input": "/components/FixIosInput/index"
+  }
+}
